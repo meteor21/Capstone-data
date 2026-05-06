@@ -1,0 +1,56 @@
+leagues:
+  - id: sr:competition:17
+    name: Premier League
+    short_name: EPL
+  - id: sr:competition:8
+    name: LaLiga
+    short_name: LaLiga
+  - id: sr:competition:35
+    name: Bundesliga
+    short_name: BL
+  - id: sr:competition:23
+    name: Serie A
+    short_name: SerieA
+  - id: sr:competition:34
+    name: Ligue 1
+    short_name: L1
+  - id: sr:competition:37
+    name: Eredivisie
+    short_name: Eredivisie
+  - id: sr:competition:238
+    name: Liga Portugal
+    short_name: Primeira
+  - id: sr:competition:52
+    name: Süper Lig
+    short_name: SuperLig
+  - id: sr:competition:38
+    name: Jupiler Pro League
+    short_name: BelgianPro
+  - id: sr:competition:40
+    name: Scottish Premiership
+    short_name: SPFL
+
+uefa_competitions:
+  - id: sr:competition:7
+    name: UEFA Champions League
+    short_name: UCL
+  - id: sr:competition:679
+    name: UEFA Europa League
+    short_name: UEL
+  - id: sr:competition:17376
+    name: UEFA Europa Conference League
+    short_name: UECL
+
+seasons:
+  - label: "2021-22"
+    year_start: 2021
+    year_end: 2022
+  - label: "2022-23"
+    year_start: 2022
+    year_end: 2023
+  - label: "2023-24"
+    year_start: 2023
+    year_end: 2024
+  - label: "2024-25"
+    year_start: 2024
+    year_end: 2025

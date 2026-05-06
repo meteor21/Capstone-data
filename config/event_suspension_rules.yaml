@@ -1,0 +1,17 @@
+suspension_rules:
+  goal: {suspends: false, seconds: 0}
+  penalty_goal: {suspends: true, seconds: 60}
+  penalty_missed: {suspends: true, seconds: 60}
+  penalty_awarded: {suspends: true, seconds: 90}
+  own_goal: {suspends: false, seconds: 0}
+  yellow_card: {suspends: false, seconds: 0}
+  red_card: {suspends: true, seconds: 30}
+  yellow_red: {suspends: true, seconds: 30}
+  substitution: {suspends: false, seconds: 0}
+  var_review_started: {suspends: true, seconds: 120}
+  var_review_overturned_goal: {suspends: true, seconds: 120}
+  var_penalty_awarded: {suspends: true, seconds: 120}
+  period_start: {suspends: false, seconds: 0}
+  period_end: {suspends: false, seconds: 0}
+  match_ended: {suspends: false, seconds: 0}
+post_suspension_cooldown_seconds: 30

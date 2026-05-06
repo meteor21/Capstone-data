@@ -1,0 +1,35 @@
+project:
+  name: soccer-betting-capstone
+  version: 0.1.0
+
+api:
+  base_url: https://api.sportradar.com/soccer-extended/production/v4/en
+  api_key_env: SPORTRADAR_API_KEY
+  rate_limit_qps: 1
+  daily_call_cap: 1000
+  retry_max_attempts: 5
+  retry_backoff_base: 2.0
+  request_timeout_seconds: 30
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  reports: reports/verification
+  logs: logs
+
+ingestion:
+  resume_from_cache: true
+  cache_max_age_days: 365
+  daily_checkpoint: true
+  fetch_order:
+    - seasons
+    - schedules
+    - teams
+    - team_seasonal_stats
+    - standings
+    - summaries
+
+storage:
+  format: parquet
+  compression: snappy
