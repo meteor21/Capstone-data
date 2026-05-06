@@ -1,0 +1,8 @@
+# Five-Minute Aggregate Report
+
+| team | event_type | count |
+|---|---|---|
+| Away FC | foul | 1 |
+| Home FC | corner_kick | 1 |
+| Home FC | kickoff | 1 |
+| Home FC | shot_on_target | 1 |

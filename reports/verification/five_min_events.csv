@@ -1,0 +1,5 @@
+id,minute,type,team,x,y
+1,1,kickoff,Home FC,50,50
+2,2,shot_on_target,Home FC,83,44
+3,3,foul,Away FC,41,61
+4,5,corner_kick,Home FC,99,3
